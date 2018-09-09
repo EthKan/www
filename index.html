@@ -1,0 +1,757 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <title>EthKan.io</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1,user-scalable=yes">
+    <meta name="description" content="EthKan.io is an open source project management and fundraising tool; the first DAICO GUI on Ethereum.">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- From Favicon generator -->
+    <link rel="apple-touch-icon" sizes="57x57" href="images/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="images/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="images/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="images/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="images/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="images/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="images/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="images/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="images/favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="shortcut icon" href="images/favicon/favicon-16x16.png" type="image/x-icon">
+
+    <link href="normalize.css" rel="stylesheet">  
+    <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/fontawesome/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="assets/slick/slick.css"/>
+    <link href="style.css" rel="stylesheet">  
+
+  </head>
+  <body>
+    <div class="width-tester"></div>
+    <!--HEADER START-->
+
+    <header>
+      <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light">        
+          <div class="container">
+            <a class="navbar-brand" href="http://ethkan.io/">
+              <img class="float-left" src="images/header_logo.png">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="#roadmap"><span class="navlink">Development Roadmap</span> <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#contribute"><span class="navlink">How to Contribute</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#team"><span class="navlink">Meet the Team</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#contact"><span class="navlink">Contact</span></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+      
+    </header>
+
+    <!--HEADER END-->
+
+    <!--BODY START-->
+      <section class="hero" id="hero">
+        <div class="container">
+          <h1>EthKan.io is an open source project management and fundraising tool; the first DAICO GUI for Ethereum.</h1>
+          <p>A DAICO is an improvement on the ICO fundraising model that incorporates transparency and governance, like a DAO.</p>
+          <p>EthKan allows groups to organize their project on a KanBan board, adding a card for every task needed to complete their project. Unlike a traditional ICO, investors can fund specific task cards instead of the whole project.</p>
+          <p>Producers claim cards, and are paid after the card's tasks are completed.</p>
+          <p>EthKan creates a transparent, decentralized, funding and management model for crypto projects.</p>
+        </div>
+      </section>
+
+
+
+      <div id="body-wrap">
+        
+        <!-- SECTION START -->
+
+        <section class="howitworks">
+          <div class="container">       
+            <h2 class="section-title">How it works</h2>
+            <div class="slider-how">
+              <div class="how-slide">
+                <div class="row">
+                  <div class="col-md-8">
+                    <img src="images/slides/slide1.png" />
+                  </div>
+                  <div class="col-md-4">
+                    <p><span>1</span></p>
+                    <p>Project Managers looking to fundraise create a new project and KanBan task board on EthKan.io, linking the two together.</p>    
+                  </div>
+                </div>
+              </div>
+              <div class="how-slide">
+                <div class="row">
+                  <div class="col-md-8">
+                    <img src="images/slides/slide2.png" />
+                  </div>
+                  <div class="col-md-4">
+                    <p><span>2</span></p>
+                    <p>They fill out the board with cards that represent projects tasks.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="how-slide">
+                <div class="row">
+                  <div class="col-md-8">
+                    <img src="images/slides/slide3.png" />
+                  </div>
+                  <div class="col-md-4">
+                    <p><span>3</span></p>
+                    <p>Investors may fund any task cards they choose, using the card's specific wallet address.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="how-slide">
+                <div class="row">
+                  <div class="col-md-8">
+                    <img src="images/slides/slide4.png" />
+                  </div>
+                  <div class="col-md-4">
+                    <p><span>4</span></p>
+                    <p>Producers who want to participate in developing the project can claim tasks they want to complete.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="how-slide">
+                <div class="row">
+                  <div class="col-md-8">
+                    <img src="images/slides/slide5.png" />
+                  </div>
+                  <div class="col-md-4">
+                    <p><span>5</span></p>
+                    <p>Once the task has been completed, the Project Manager signs off on it, releasing the Investor payment to the Producer.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="how-slide">
+                <div class="row">
+                  <div class="col-md-8">
+                    <img src="images/slides/slide6.png" />
+                  </div>
+                  <div class="col-md-4">
+                    <p><span>6</span></p>
+                    <p>Project tokens are automatically created and distributed to the Investor, while board reputation tokens are created and distributed to the Producer.</p>
+                  </div>
+                </div>
+              </div>                    
+            </div>
+          </div>
+        </section>
+
+        <!-- SECTION START -->
+
+        <section class="roadmap" id="roadmap">
+          <div class="container">
+            <h2 class="section-title">Development Roadmap</h2>   
+            <p>We’ve divided our major releases into seasons, just like a tv show. Season 1 has 8 Episodes, and each Episode represents a development sprint. Check out what each Episode entails below, as well as our progress. When all 8 Episodes are done, we’ll release V1 of the app.</p>
+
+            <!-- EPISODE SECTION START -->
+
+            <div class="ep-section todo card" id="s01e01">
+              <div class="collapse-toggle" data-toggle="collapse" data-target=".collapse.s01e01" aria-expanded="false" role="button">
+                <i class="fa fa-angle-right" aria-hidden="true"></i>
+              </div>
+              <div class="row">
+                <div class="col-md-3 col-lg-4 collapse s01e01 ep-icon" data-parent="#roadmap">
+                  <img src="images/episodes/episode1.png">
+                </div>
+                <div class="col-md-9 col-lg-8">
+                  <div class="ep-top">
+                    <p class="ep-number">Episode 1</p> 
+                    <p class="ep-status ep-status-todo">To do <i class="fa fa-check" aria-hidden="true"></i></p>
+                    <p class="ep-title">The hero’s journey begins with an identity</p> 
+                    <p class="ep-status ep-status-todo">To do <i class="fa fa-check" aria-hidden="true"></i></p>
+                  </div>
+                  
+                  <div class="collapse s01e01 ep-desc" data-parent="#roadmap">
+                    <p>In episode 1, we meet Baylor. Baylor is the community lead for <a href="https://dappnode.io/" class="link" target="_blank">DAppNode</a>, the decentralized backbone of the internet. He wants to start moving the project forward and really likes <a href="https://wekan.github.io/" class="link" target="_blank">Wekan</a>, which is an open source kanban-style organization system.</p>
+
+                    <div class="collapse show ep-more" id="s01e01-more">
+                      <p>Ethkan is an Ethereum integration of Wekan, and it gives Baylor the ability to organize by kanban, as well as fund each individual task required to complete DAppNode.</p>
+                      <p>Baylor browses to ethkan.io, and creates a user account. </p>
+                      <p>Will Baylor follow through with the project, all the way to its completion?</p>
+                      
+                      <div class="row">
+                        <div class="col-md-12">
+                          <h3 class="title">Episode Epics</h3>
+                          <ul>
+                            <li>As a user, I create an account and tie it to my Ethereum address, so EthKan has a user account for me.</li>
+                          </ul>
+                        </div>
+                        <!-- <div class="col-md-6">
+                          <div class="video">
+                            <div class="embed-responsive embed-responsive-16by9">
+                              <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/MMkKu43_cjw" allowfullscreen></iframe>
+                            </div>
+                          </div>
+                        </div> -->
+                      </div>
+                    </div>
+                    <p class="readmore">
+                      <a class="more" data-toggle="collapse" href="#s01e01-more" role="button" aria-expanded="false" aria-controls="s01e01-more" moretext="read more">
+                      read more</a>
+                    </p>
+                  </div>
+                  <p class="ep-close-wrapper"><span data-toggle="collapse" data-target=".s01e01" aria-expanded="false" class="gh-link text-right ep-close collapse s01e01" data-parent="#roadmap">close episode</span></p>
+                </div>
+              </div>
+            </div>
+    
+            <!-- EPISODE SECTION END -->
+
+            <!-- EPISODE SECTION START -->
+
+            <div class="ep-section todo card" id="s01e02">
+              <div class="collapse-toggle" data-toggle="collapse" data-target=".collapse.s01e02" aria-expanded="false" role="button">
+                <i class="fa fa-angle-right" aria-hidden="true"></i>
+              </div>
+              <div class="row">
+                <div class="col-md-3 col-lg-4 collapse s01e02 ep-icon" data-parent="#roadmap">
+                  <img src="images/episodes/episode2.png">
+                </div>
+                <div class="col-md-9 col-lg-8">
+                  <div class="ep-top">
+                    <p class="ep-number">Episode 2</p> 
+                    <p class="ep-status ep-status-todo">To do <i class="fa fa-check" aria-hidden="true"></i></p>
+                    <p class="ep-title">An account backup is like an extra life</p> 
+                    <p class="ep-status ep-status-todo">To do <i class="fa fa-check" aria-hidden="true"></i></p>
+                  </div>
+                  
+                  <div class="collapse s01e02 ep-desc" data-parent="#roadmap">
+                    <p>In episode 2, Baylor has finished creating his new user account, so he takes a five minute break to celebrate his progress. Upon returning Baylor tries to login to EthKan.io, but he can’t get in. In his haste, Baylor must have accidentally deleted his user account from his computer. </p>
+
+                    <div class="collapse show ep-more" id="s01e02-more">
+                      <p>After a short round of pouting, Baylor realizes that before he was able to finish the account setup, EthKan made him download backup files in several different formats. </p>
+                      <p>A grin slowly appears on his face. All might not be lost. </p>
+                      <p>Will Baylor be able to use his backup files to restore his user account?</p>
+                      
+                      <div class="row">
+                          <div class="col-md-12">
+                            <h3 class="title">Episode Epics</h3>
+                          <ul>
+                            <li>As a user, I download a paper wallet so I can restore my wallet on any device.</li>
+                            <li>As a user, I download my keystore file so I can use it to restore my wallet on any device.</li>
+                            <li>As a user, I can view my private key, so that I can use it to restore my wallet on any device.</li>
+                            <li>As a user, I can employ my paper wallet, keystore file, or private key to restore my wallet on any device.</li>
+                          </ul>
+                        </div>
+                        <!-- <div class="col-md-6">
+                          <div class="video">
+                            <div class="embed-responsive embed-responsive-16by9">
+                              <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/MMkKu43_cjw" allowfullscreen></iframe>
+                            </div>
+                          </div>
+                        </div> -->
+                      </div>
+                    </div>
+                    <p class="readmore">
+                      <a class="more" data-toggle="collapse" href="#s01e02-more" role="button" aria-expanded="false" aria-controls="s01e02-more" moretext="read more">
+                      read more</a>
+                    </p>
+                  </div>
+                  <p class="ep-close-wrapper"><span data-toggle="collapse" data-target=".s01e02" aria-expanded="false" class="gh-link text-right ep-close collapse s01e02" data-parent="#roadmap">close episode</span></p>
+                </div>
+              </div>
+            </div>
+    
+            <!-- EPISODE SECTION END -->
+
+            <!-- EPISODE SECTION START -->
+
+            <div class="ep-section todo card" id="s01e03">
+              <div class="collapse-toggle" data-toggle="collapse" data-target=".collapse.s01e03" aria-expanded="false" role="button">
+                <i class="fa fa-angle-right" aria-hidden="true"></i>
+              </div>
+              <div class="row">
+                <div class="col-md-3 col-lg-4 collapse s01e03 ep-icon" data-parent="#roadmap">
+                  <img src="images/episodes/episode3.png">
+                </div>
+                <div class="col-md-9 col-lg-8">
+                  <div class="ep-top">
+                    <p class="ep-number">Episode 3</p> 
+                    <p class="ep-status ep-status-todo">To do <i class="fa fa-check" aria-hidden="true"></i></p>
+                    <p class="ep-title">A new project; a new you</p> 
+                    <p class="ep-status ep-status-todo">To do <i class="fa fa-check" aria-hidden="true"></i></p>
+                  </div>
+                  
+                  <div class="collapse s01e03 ep-desc" data-parent="#roadmap">
+                    <p>In episode 3, Baylor has successfully restored his account, and is ready to begin organizing and funding DAppNode on an EthKan project board. He logs in to EthKan.io. On his dashboard, Baylor has the option to create a new project. He does so, excited by how easy the process has been so far. </p>
+
+                    <div class="collapse show ep-more" id="s01e03-more">
+                      <p>Now it’s time for Baylor to choose payment methods. He knows that Swarm Tokens (SWT) and Ether (ETH) are very popular with contractors looking to help build DAppNode. </p>
+                      <p>So, with that in mind he selects these tokens as acceptable payment methods for funding and completing project tasks. </p>      
+                      <p>Will his new project appear on the dashboard page?</p>
+                      
+                      <div class="row">
+                          <div class="col-md-12">
+                            <h3 class="title">Episode Epics</h3>
+                          <ul>
+                            <li>As a Project Owner, I create a new project on ethkan.io so I can add all the boards and cards to it that I want funded and completed.</li>
+                            <li>As a user, I use Web3 to sign transactions on an EthKan project board.</li>
+                            <li>As a project manager I can select which tokens are accepted for completing tasks, so people can get paid in my desired token.</li>
+                          </ul>
+                        </div>
+                        <!-- <div class="col-md-6">
+                          <div class="video">
+                            <div class="embed-responsive embed-responsive-16by9">
+                              <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/MMkKu43_cjw" allowfullscreen></iframe>
+                            </div>
+                          </div>
+                        </div> -->
+                      </div>
+                    </div>
+                    <p class="readmore">
+                      <a class="more" data-toggle="collapse" href="#s01e03-more" role="button" aria-expanded="false" aria-controls="s01e03-more" moretext="read more">
+                      read more</a>
+                    </p>
+                  </div>
+                  <p class="ep-close-wrapper"><span data-toggle="collapse" data-target=".s01e03" aria-expanded="false" class="gh-link text-right ep-close collapse s01e03" data-parent="#roadmap">close episode</span></p>
+                </div>
+              </div>
+            </div>
+    
+            <!-- EPISODE SECTION END -->
+
+            <!-- EPISODE SECTION START -->
+
+            <div class="ep-section todo card" id="s01e04">
+              <div class="collapse-toggle" data-toggle="collapse" data-target=".collapse.s01e04" aria-expanded="false" role="button">
+                <i class="fa fa-angle-right" aria-hidden="true"></i>
+              </div>
+              <div class="row">
+                <div class="col-md-3 col-lg-4 collapse s01e04 ep-icon" data-parent="#roadmap">
+                  <img src="images/episodes/episode4.png">
+                </div>
+                <div class="col-md-9 col-lg-8">
+                  <div class="ep-top">
+                    <p class="ep-number">Episode 4</p> 
+                    <p class="ep-status ep-status-todo">To do <i class="fa fa-check" aria-hidden="true"></i></p>
+                    <p class="ep-title">From one to many</p> 
+                    <p class="ep-status ep-status-todo">To do <i class="fa fa-check" aria-hidden="true"></i></p>
+                  </div>
+                  
+                  <div class="collapse s01e04 ep-desc" data-parent="#roadmap">
+                    <p>In episode 4, Baylor reflects on the progress he’s made so far in getting DAppNode funded and built. But while doing so, he feels the dull sting of melancholy as he recognizes he is currently alone on this journey. Baylor quickly realizes he has the power to change his circumstances and invites Fiona to the project as a Board Manager. </p>
+
+                    <div class="collapse show ep-more" id="s01e04-more">
+                      <p>Fiona, excited by the opportunity, is ready to create her first of many EthKan boards within the DAppNode project. Fiona fills in some board specific information and finishes the setup process. </p>
+                      <p>Fiona knows a few people she thinks would like to help organize this project and invites them to be Card Originators. </p>      
+                      <p>Will anyone accept her invitation?</p>
+                      
+                      <div class="row">
+                          <div class="col-md-12">
+                            <h3 class="title">Episode Epics</h3>
+                          <ul>
+                            <li>As a project owner I can add Board Managers so other people can take part in organizing boards and cards for the project.</li>
+                            <li>As a Board Manager, I create a new board and connect it to the project I participate with.</li>
+                            <li>As a Board Manager I can find a board’s URL link, so I can share it though media outlets to find Investors and Producers.</li>
+                            <li>As a Board Manager I can invite users to become Card Originators on the board, so tasks can be created.</li>
+                          </ul>
+                        </div>
+                        <!-- <div class="col-md-6">
+                          <div class="video">
+                            <div class="embed-responsive embed-responsive-16by9">
+                              <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/MMkKu43_cjw" allowfullscreen></iframe>
+                            </div>
+                          </div>
+                        </div> -->
+                      </div>
+                    </div>
+                    <p class="readmore">
+                      <a class="more" data-toggle="collapse" href="#s01e04-more" role="button" aria-expanded="false" aria-controls="s01e04-more" moretext="read more">
+                      read more</a>
+                    </p>
+                  </div>
+                  <p class="ep-close-wrapper"><span data-toggle="collapse" data-target=".s01e04" aria-expanded="false" class="gh-link text-right ep-close collapse s01e04" data-parent="#roadmap">close episode</span></p>
+                </div>
+              </div>
+            </div>
+    
+            <!-- EPISODE SECTION END -->
+
+            <!-- EPISODE SECTION START -->
+
+            <div class="ep-section todo card" id="s01e05">
+              <div class="collapse-toggle" data-toggle="collapse" data-target=".collapse.s01e05" aria-expanded="false" role="button">
+                <i class="fa fa-angle-right" aria-hidden="true"></i>
+              </div>
+              <div class="row">
+                <div class="col-md-3 col-lg-4 collapse s01e05 ep-icon" data-parent="#roadmap">
+                  <img src="images/episodes/episode5.png">
+                </div>
+                <div class="col-md-9 col-lg-8">
+                  <div class="ep-top">
+                    <p class="ep-number">Episode 5</p> 
+                    <p class="ep-status ep-status-todo">To do <i class="fa fa-check" aria-hidden="true"></i></p>
+                    <p class="ep-title">Tasky</p> 
+                    <p class="ep-status ep-status-todo">To do <i class="fa fa-check" aria-hidden="true"></i></p>
+                  </div>
+                  
+                  <div class="collapse s01e05 ep-desc" data-parent="#roadmap">
+                    <p>In episode 5, Lenny responds to Fiona's invitation to participate on her new DAppNode board. Lenny is philosophically motivated to help DAppNode come to fruition, and he has some ideas about what functionality DAppNode should have. </p>
+
+                    <div class="collapse show ep-more" id="s01e05-more">
+                      <p>With that in mind, Lenny creates his first task on the board. </p>
+                      <p>Will anyone believe his task is worthwhile enough to fund it?</p>
+                      
+                      <div class="row">
+                          <div class="col-md-12">
+                            <h3 class="title">Episode Epics</h3>
+                          <ul>
+                            <li>As a Card Originator, I can post a new card on a project board, describing what task I want completed, so that Producers can build it.</li>
+                            <li>As a user, I can visit an EthKan board to see the detail-view of a card, so I can determine whether or not I want to participate with it.</li>
+                          </ul>
+                        </div>
+                        <!-- <div class="col-md-6">
+                          <div class="video">
+                            <div class="embed-responsive embed-responsive-16by9">
+                              <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/MMkKu43_cjw" allowfullscreen></iframe>
+                            </div>
+                          </div>
+                        </div> -->
+                      </div>
+                    </div>
+                    <p class="readmore">
+                      <a class="more" data-toggle="collapse" href="#s01e05-more" role="button" aria-expanded="false" aria-controls="s01e05-more" moretext="read more">
+                      read more</a>
+                    </p>
+                  </div>
+                  <p class="ep-close-wrapper"><span data-toggle="collapse" data-target=".s01e05" aria-expanded="false" class="gh-link text-right ep-close collapse s01e05" data-parent="#roadmap">close episode</span></p>
+                </div>
+              </div>
+            </div>
+    
+            <!-- EPISODE SECTION END -->
+
+            <!-- EPISODE SECTION START -->
+
+            <div class="ep-section todo card" id="s01e06">
+              <div class="collapse-toggle" data-toggle="collapse" data-target=".collapse.s01e06" aria-expanded="false" role="button">
+                <i class="fa fa-angle-right" aria-hidden="true"></i>
+              </div>
+              <div class="row">
+                <div class="col-md-3 col-lg-4 collapse s01e06 ep-icon" data-parent="#roadmap">
+                  <img src="images/episodes/episode6.png">
+                </div>
+                <div class="col-md-9 col-lg-8">
+                  <div class="ep-top">
+                    <p class="ep-number">Episode 6</p> 
+                    <p class="ep-status ep-status-todo">To do <i class="fa fa-check" aria-hidden="true"></i></p>
+                    <p class="ep-title">Giving and receiving</p> 
+                    <p class="ep-status ep-status-todo">To do <i class="fa fa-check" aria-hidden="true"></i></p>
+                  </div>
+                  
+                  <div class="collapse s01e06 ep-desc" data-parent="#roadmap">
+                    <p>In episode 6, we meet Giftech. He’s a crypto millionaire with a big heart, and he wants to use his wealth to change the world for the better. Giftech happens upon Fiona’s DAppNode project board and decides to participate. He sees Lenny’s task, thinks it’s kickass, and funds it with the appropriate token.</p>
+
+                    <div class="collapse show ep-more" id="s01e06-more">
+                      <p>Juliette and Veronica, two developers hungry for a new project, find Lenny’s funded task. Both show their interest in completing the task by replying to it. </p>
+                      <p>Will one of them be chosen to complete the task?</p>
+                      
+                      <div class="row">
+                          <div class="col-md-12">
+                            <h3 class="title">Episode Epics</h3>
+                          <ul>
+                            <li>As a user, I send funds to the address of the card, so a Producer can get paid for completing the card task.</li>
+                            <li>As a user, I can reply to a task so I can express my interest in producing it.</li>
+                            <li>As a user, I can see the replies in a card so I can decide if I want to participate in the card’s task.</li>
+                          </ul>
+                        </div>
+                        <!-- <div class="col-md-6">
+                          <div class="video">
+                            <div class="embed-responsive embed-responsive-16by9">
+                              <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/MMkKu43_cjw" allowfullscreen></iframe>
+                            </div>
+                          </div>
+                        </div> -->
+                      </div>
+                    </div>
+                    <p class="readmore">
+                      <a class="more" data-toggle="collapse" href="#s01e06-more" role="button" aria-expanded="false" aria-controls="s01e06-more" moretext="read more">
+                      read more</a>
+                    </p>
+                  </div>
+                  <p class="ep-close-wrapper"><span data-toggle="collapse" data-target=".s01e06" aria-expanded="false" class="gh-link text-right ep-close collapse s01e06" data-parent="#roadmap">close episode</span></p>
+                </div>
+              </div>
+            </div>
+    
+            <!-- EPISODE SECTION END -->
+
+            <!-- EPISODE SECTION START -->
+
+            <div class="ep-section todo card" id="s01e07">
+              <div class="collapse-toggle" data-toggle="collapse" data-target=".collapse.s01e07" aria-expanded="false" role="button">
+                <i class="fa fa-angle-right" aria-hidden="true"></i>
+              </div>
+              <div class="row">
+                <div class="col-md-3 col-lg-4 collapse s01e07 ep-icon" data-parent="#roadmap">
+                  <img src="images/episodes/episode7.png">
+                </div>
+                <div class="col-md-9 col-lg-8">
+                  <div class="ep-top">
+                    <p class="ep-number">Episode 7</p> 
+                    <p class="ep-status ep-status-todo">To do <i class="fa fa-check" aria-hidden="true"></i></p>
+                    <p class="ep-title">A critical choice</p> 
+                    <p class="ep-status ep-status-todo">To do <i class="fa fa-check" aria-hidden="true"></i></p>
+                  </div>
+                  
+                  <div class="collapse s01e07 ep-desc" data-parent="#roadmap">
+                    <p>In episode 7, Fiona sees the replies from Juliette and Veronica, and checks out their reputation. As the board manager, the choice is hers, but Fiona huddles with Giftech to get his take on which developer would be best to work on Lenny’s task. </p>
+
+                    <div class="collapse show ep-more" id="s01e07-more">
+                      <p>Will she choose Juliette or Veronica?</p>
+                      
+                      <div class="row">
+                          <div class="col-md-12">
+                            <h3 class="title">Episode Epics</h3>
+                          <ul>
+                            <li>As a user, I see another user’s reputation so I can interpret it to decide on the trustworthiness of the other user.</li>
+                            <li>As a Board Manager, I choose a replier to become the task’s Producer, so they may get paid for completing the task.</li>
+                            <li>As a Producer, I accept the task so I may get paid for completing it.</li>
+                          </ul>
+                        </div>
+                        <!-- <div class="col-md-6">
+                          <div class="video">
+                            <div class="embed-responsive embed-responsive-16by9">
+                              <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/MMkKu43_cjw" allowfullscreen></iframe>
+                            </div>
+                          </div>
+                        </div> -->
+                      </div>
+                    </div>
+                    <p class="readmore">
+                      <a class="more" data-toggle="collapse" href="#s01e07-more" role="button" aria-expanded="false" aria-controls="s01e07-more" moretext="read more">
+                      read more</a>
+                    </p>
+                  </div>
+                  <p class="ep-close-wrapper"><span data-toggle="collapse" data-target=".s01e07" aria-expanded="false" class="gh-link text-right ep-close collapse s01e07" data-parent="#roadmap">close episode</span></p>
+                </div>
+              </div>
+            </div>
+    
+            <!-- EPISODE SECTION END -->
+
+            <!-- EPISODE SECTION START -->
+
+            <div class="ep-section todo card" id="s01e08">
+              <div class="collapse-toggle" data-toggle="collapse" data-target=".collapse.s01e08" aria-expanded="false" role="button">
+                <i class="fa fa-angle-right" aria-hidden="true"></i>
+              </div>
+              <div class="row">
+                <div class="col-md-3 col-lg-4 collapse s01e08 ep-icon" data-parent="#roadmap">
+                  <img src="images/episodes/episode8.png">
+                </div>
+                <div class="col-md-9 col-lg-8">
+                  <div class="ep-top">
+                    <p class="ep-number">Episode 8</p> 
+                    <p class="ep-status ep-status-todo">To do <i class="fa fa-check" aria-hidden="true"></i></p>
+                    <p class="ep-title">Reputation is prosperity</p> 
+                    <p class="ep-status ep-status-todo">To do <i class="fa fa-check" aria-hidden="true"></i></p>
+                  </div>
+                  
+                  <div class="collapse s01e08 ep-desc" data-parent="#roadmap">
+                    <p>In episode 8, we find out that Fiona picked Veronica to work on Lenny’s task. Veronica is an industrious developer and rapid typist, so she completes the task in just a few hours. Fiona checks Veronica’s work and confers with Giftech. They are both satisfied with Veronica’s work and release payment to her. </p>
+
+                    <div class="collapse show ep-more" id="s01e08-more">
+                      <p>But wait! Payment is not the only benefit one receives from working on this DAppNode project board. In fact, both the Producer and Funder are rewarded for participating in this task; Gifford with project tokens, and Veronica with reputation tokens. </p>
+                      <p>How many tokens will each receive?</p>
+                      
+                      <div class="row">
+                          <div class="col-md-12">
+                            <h3 class="title">Episode Epics</h3>
+                          <ul>
+                            <li>As Board Manager, I release the card’s funds to the Producer so they can get paid.</li>
+                            <li>As a Funder, I receive board tokens so I have proof of my participation in the project.</li>
+                            <li>As a Producer, I get reputation tokens, so I have proof of successfully completing a card’s task.</li>
+                          </ul>
+                        </div>
+                        <!-- <div class="col-md-6">
+                          <div class="video">
+                            <div class="embed-responsive embed-responsive-16by9">
+                              <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/MMkKu43_cjw" allowfullscreen></iframe>
+                            </div>
+                          </div>
+                        </div> -->
+                      </div>
+                    </div>
+                    <p class="readmore">
+                      <a class="more" data-toggle="collapse" href="#s01e08-more" role="button" aria-expanded="false" aria-controls="s01e08-more" moretext="read more">
+                      read more</a>
+                    </p>
+                  </div>
+                  <p class="ep-close-wrapper"><span data-toggle="collapse" data-target=".s01e08" aria-expanded="false" class="gh-link text-right ep-close collapse s01e08" data-parent="#roadmap">close episode</span></p>
+                </div>
+              </div>
+            </div>
+    
+            <!-- EPISODE SECTION END -->
+
+          </div>
+        </section>
+
+        <!-- SECTION START -->
+
+        <section class="contribute" id="contribute">
+          <div class="container">
+            <h2 class="section-title">How to Contribute</h2>
+            <div class="row">
+              <div class="col-lg-4">
+                <div class="card">
+                  <div class="card-body">
+                    <img src="images/img_giveth.png"/>
+                    <h4 class="card-title">Fund the EthKan Campaign on Giveth</h4>
+                    <p class="card-desc">Giveth allows projects like EthKan to fundraise in a transparent way. Go here to help fund our project:</p>
+                    <p class="readmore"><a href="https://beta.giveth.io/campaigns/5b75d457718202720c50cd8a" target="_blank">EthKan on Giveth</a></p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="card">
+                  <div class="card-body">
+                    <img src="images/img_github.png"/>
+                    <h4 class="card-title">Complete tasks and issues on GitHub</h4>
+                    <p class="card-desc">Are you a developer looking to get involved? You can find our code here:</p>
+                    <p class="readmore"><a href="https://github.com/EthKan" target="_blank">EthKan on Github</a></p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="card">
+                  <div class="card-body">
+                    <img src="images/img_onboard.png"/>
+                    <h4 class="card-title">Help onboard projects and people</h4>
+                    <p class="card-desc">Join our community on Riot, and help us make EthKan a reality. Onboard yourself, others, or projects who might want to use EthKan for their project management and fundraising needs.</p>
+                    <p class="readmore"><a href="https://matrix.to/#/+ethkan:matrix.org" target="_blank">EthKan on Riot</a></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- SECTION START -->
+
+        <section class="team" id="team">
+          <div class="container">
+              <h2 class="section-title">Meet the team</h2>
+            <!-- PEEPS HERE!! -->
+
+            <div class="row slider-who">
+              <div class="col-4">
+                <img src="images/people/img_who_matt.png" />
+                <p class="who-handle">@matthewcarano</p>
+                <p class="who-role">Project Lead</p>
+              </div>
+              <div class="col-4">
+                <img src="images/people/img_who_kars.png" />
+                <p class="who-handle">@karsrhyder</p>
+                <p class="who-role">Architect &<br/>Solidity Dev</p>
+              </div>
+              <div class="col-4">
+                <img src="images/people/img_who_xet7.png" />
+                <p class="who-handle">@xet7</p>
+                <p class="who-role">Full Stack</p>
+              </div>
+              <div class="col-4">
+                <img src="images/people/img_who_sugarpusher.png" />
+                <p class="who-handle">@sugarpusher</p>
+                <p class="who-role">Front End Dev</p>
+              </div>
+              <div class="col-4">
+                <img src="images/people/img_who_wendy.png" />
+                <p class="who-handle">@wendydevries</p>
+                <p class="who-role">Comms</p>
+              </div>
+              <div class="col-4">
+                <img src="images/people/img_who_flurkel.png" />
+                <p class="who-handle">@kingflurkel</p>
+                <p class="who-role">Advisor</p>
+              </div>  
+              <div class="col-4">
+                <img src="images/people/img_who_griff.png" />
+                <p class="who-handle">@griff</p>
+                <p class="who-role">Advisor</p>
+              </div>  
+              <div class="col-4">
+                <img src="images/people/img_who_tbd.png" />
+                <p class="who-handle">@tbd</p>
+                <p class="who-role">UI/UX</p>
+              </div> 
+            </div>
+          </div>
+        </section>
+
+      </div>        
+    <!--BODY END-->
+    <!--FOOTER START-->
+    <footer>
+      <section class="contact" id="contact">
+        <div class="container">
+          <h2 class="section-title">Contact</h2>
+          <h3>Didn’t find what you were looking for?<br/>Come talk to us!</h3>
+          <div class="row">
+            <div class="col-md-6">
+              <a class="btn btn-dark" href="https://matrix.to/#/+ethkan:matrix.org" target="_blank">
+                <img src="images/social_riot.png">
+                EthKan on Riot
+              </a>
+              <a class="btn btn-dark" href="https://github.com/EthKan" target="_blank">
+                <img src="images/social_github.png">
+                EthKan on Github
+              </a>
+            </div>
+            <div class="col-md-6">
+              <a class="btn btn-dark" href="https://twitter.com/ethkan" target="_blank">
+                <img src="images/social_twitter.png">
+                EthKan on Twitter
+              </a>
+              <a class="btn btn-dark" href="https://medium.com/ethkan" target="_blank">
+                <img src="images/social_medium.png">
+                EthKan on Medium
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </footer>
+    <a href="#" class="back-to-top">
+      <i class="fa fa-arrow-circle-up"></i>
+    </a>
+    <!--FOOTER END-->  
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>  
+    <script type="text/javascript" src="assets/slick/slick.min.js"></script>  
+    <script src="scripts.js"></script> 
+	</body>
+</html>
