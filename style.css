@@ -42,7 +42,7 @@ header {
 
 header .container {
   padding-right: 15px;
-  padding-left: 15px;
+  padding-left: 15px; 
 }
 
 .navbar {
@@ -738,7 +738,7 @@ footer .btn-dark img {
     line-height: 36px;
   }
   footer .btn-dark {
-    font-family: "Montserrat-Regular";
+    font-family: "Lato-Regular";
     font-size: 20px;
     min-width: 302px;
   }
